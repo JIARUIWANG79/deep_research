@@ -25,17 +25,17 @@ email_agent.py         # (optional) Sends report via email
   - Optional search API keys (e.g. SERPER_API_KEY, BING_SEARCH_KEY)
 
 ## Quick Start
-git clone https://github.com/JIARUIWANG79/deep_research.git
-cd deep_research
-uv init
-uv add openai python-dotenv
-uv sync
-uv run python deep_research.py "What are state-of-the-art retrieval-augmented generation methods?" --out report.md
+git clone https://github.com/JIARUIWANG79/deep_research.git  
+cd deep_research  
+uv init  
+uv add openai python-dotenv  
+uv sync  
+uv run python deep_research.py  
 
 ## Workflow Overview
 1. Planner: Splits the main topic into focused search tasks.
 2. Search Agent: Retrieves and filters sources concurrently.
 3. Manager: Aggregates and deduplicates evidence.
 4. Writer: Produces the final Markdown report.
-5. Email Agent (optional): Sends the report.
+5. Email Agent (optional): Sends the report to your email.
 
